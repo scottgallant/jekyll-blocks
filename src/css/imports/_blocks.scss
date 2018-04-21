@@ -1,0 +1,15 @@
+.block {
+	margin: 8rem 0;
+
+	&.remove-bottom-margin {
+		margin-bottom: 0;
+	}
+
+	&.remove-top-margin {
+		margin-top: 0;
+	}
+
+	&:first-child {
+		margin-top: 0;
+	}
+}
