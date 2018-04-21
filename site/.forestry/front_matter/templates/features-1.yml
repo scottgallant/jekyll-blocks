@@ -2,76 +2,49 @@
 hide_body: false
 is_partial: true
 fields:
-- name: blocks
-  label: Blocks
-  type: field_group_list
+- type: field_group_list
+  name: feature
+  label: Feature
   fields:
-  - name: type
-    label: Type
-    type: text
-    hidden: false
-    default: ''
-  - name: feature1
-    label: Feature1
-    type: field_group
-    fields:
-    - name: heading
-      label: Heading
-      type: text
-      hidden: false
-      default: ''
-    - name: icon
-      label: Icon
-      type: text
-      hidden: false
-      default: ''
-    - name: text
-      label: Text
-      type: textarea
-      hidden: false
-      default: ''
-    - name: link_text
-      label: Link text
-      type: text
-      hidden: false
-      default: ''
-    - name: link_url
-      label: Link url
-      type: text
-      hidden: false
-      default: ''
-    hidden: false
-    default: ''
-  - name: feature2
-    label: Feature2
-    type: field_group
-    fields:
-    - name: heading
-      label: Heading
-      type: text
-      hidden: false
-      default: ''
-    - name: icon
-      label: Icon
-      type: text
-      hidden: false
-      default: ''
-    - name: text
-      label: Text
-      type: textarea
-      hidden: false
-      default: ''
-    - name: link_text
-      label: Link text
-      type: text
-      hidden: false
-      default: ''
-    - name: link_url
-      label: Link url
-      type: text
-      hidden: false
-      default: ''
-    hidden: false
-    default: ''
-  hidden: false
-  default: ''
+  - type: text
+    name: heading
+    label: Heading
+  - type: select
+    name: icon
+    config:
+      source:
+        type: simple
+      options:
+      - extension
+      - subtitles
+      - face
+      - done
+      - favorite
+      - grade
+      - build
+      - backup
+      - bookmark
+      - search
+      - settings
+      - error
+      - warning
+      - work
+      - watch later
+      - visibility
+      - view carousel
+      - view list
+      - view module
+    label: Icon
+  - type: textarea
+    name: text
+    label: text
+    config:
+      wysiwyg: false
+      schema:
+        format: markdown
+  - type: text
+    name: link_text
+    label: link text
+  - type: text
+    name: link_url
+    label: Link URL
