@@ -8,3 +8,7 @@ fields:
 - type: textarea
   name: text
   label: Text
+- type: include
+  template: block-settings
+  label: settings
+  name: settings
