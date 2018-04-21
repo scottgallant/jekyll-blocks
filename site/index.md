@@ -38,4 +38,14 @@ blocks:
   settings:
     top_margin: none
     bottom_margin: 120px
+- template: about-1
+  settings:
+    top_margin: 120px
+    bottom_margin: 120px
+    text_color: black
+  image: "/uploads/2018/04/21/hottub.jpg"
+  text: Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam id
+    dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis
+    dis parturient montes, nascetur ridiculus mus. Maecenas sed diam eget risus varius
+    blandit sit amet non magna.
 ---
