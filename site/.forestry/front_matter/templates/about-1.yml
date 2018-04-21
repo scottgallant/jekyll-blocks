@@ -5,6 +5,9 @@ fields:
 - type: file
   name: image
   label: Image
+- type: text
+  name: heading
+  label: Heading
 - type: textarea
   name: text
   label: Text
