@@ -16,4 +16,4 @@ fields:
   template_types:
   - features-1
   label: Blocks
-  name: label
+  name: blocks
