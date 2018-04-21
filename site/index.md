@@ -25,4 +25,9 @@ blocks:
       Nulla vitae elit libero, a pharetra augue.
     link_text: See the demo
     link_url: "#"
+- template: cover-1
+  heading: Test
+  text: 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+    mus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. '
+  background_image: "/uploads/2018/04/21/car.jpg"
 ---
