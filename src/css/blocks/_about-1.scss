@@ -1,0 +1,16 @@
+#one {
+  .image {
+      img {
+          width: 100%;
+      }
+  }
+
+  .text {
+    h2 {
+      color: $brand;
+      font-weight: bold;
+      font-size: 1.8em;
+      margin-top: 0;
+    }
+  }  
+}

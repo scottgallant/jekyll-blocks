@@ -4,8 +4,8 @@ layout: default
 {% for block in page.blocks %}
     {% assign template = block.template %}
     {% case template %}
-    {% when 'quote' %}
-
+    {% when 'about-1' %}
+      {% include about-1.html %}
     {% when 'features-1' %}
       {% include features-1.html %}
     {% when 'cover-1' %}

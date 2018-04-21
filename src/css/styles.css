@@ -10,7 +10,8 @@
 @import "imports/_blocks.scss";
 @import "blocks/_featurebox-1.scss";
 @import "blocks/_cover-1.scss";
-
+@import "blocks/_about-1.scss";
+@import "blocks/_about-2.scss";
 
 
 body {
