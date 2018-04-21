@@ -3,8 +3,8 @@ hide_body: false
 is_partial: true
 fields:
 - type: field_group_list
-  name: feature
-  label: Feature
+  name: features
+  label: Features
   fields:
   - type: text
     name: heading
