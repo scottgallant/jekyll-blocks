@@ -65,7 +65,8 @@ blocks:
     top_margin: 120px
     bottom_margin: none
     text_color: white
-  heading: Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla
-    sed consectetur.
+  heading: ''
   background_color: "#ddd"
+  text: Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed
+    consectetur.
 ---
