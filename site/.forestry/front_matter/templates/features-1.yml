@@ -1,17 +1,7 @@
 ---
 hide_body: false
-is_partial: false
+is_partial: true
 fields:
-- name: layout
-  label: Layout
-  type: text
-  hidden: false
-  default: ''
-- name: title
-  label: Title
-  type: text
-  hidden: false
-  default: ''
 - name: blocks
   label: Blocks
   type: field_group_list
