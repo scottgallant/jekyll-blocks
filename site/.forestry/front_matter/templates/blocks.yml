@@ -10,8 +10,3 @@ fields:
   label: layout
   hidden: true
   default: blocks
-- type: blocks
-  name: label
-  label: label
-  template_types:
-  - homepage
