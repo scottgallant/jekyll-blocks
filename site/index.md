@@ -63,7 +63,7 @@ blocks:
 - template: cover-1
   settings:
     top_margin: 120px
-    bottom_margin: 120px
+    bottom_margin: none
     text_color: white
   heading: Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla
     sed consectetur.
