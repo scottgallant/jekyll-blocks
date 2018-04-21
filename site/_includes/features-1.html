@@ -1,4 +1,4 @@
-<section class="block {% if include.class %}{{ include.class }}{% endif %}" id="fourteen">
+<section class="block {% if block.settings.top_margin == "none" %}remove-top-margin{% endif %} {% if block.settings.bottom_margin == "none" %}remove-bottom-margin{% endif %}" id="fourteen">
   <div class="container">
     <div class="row">
       {% for feature in block.features %}
