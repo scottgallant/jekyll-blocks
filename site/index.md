@@ -35,4 +35,7 @@ blocks:
       Nulla vitae elit libero, a pharetra augue.
     link_text: See the demo
     link_url: "#"
+  settings:
+    top_margin: none
+    bottom_margin: 120px
 ---
