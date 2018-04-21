@@ -8,6 +8,10 @@ blocks:
     mus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. '
   background_image: "/uploads/2018/04/21/car.jpg"
   background-color: blue
+  settings:
+    top_margin: none
+    bottom_margin: 120px
+    text_color: white
 - template: features-1
   features:
   - heading: '3rd heading '
