@@ -10,7 +10,7 @@ blocks:
   background-color: blue
   settings:
     top_margin: none
-    bottom_margin: 120px
+    bottom_margin: none
     text_color: white
 - template: features-1
   features:
