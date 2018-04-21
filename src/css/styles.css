@@ -4,6 +4,7 @@
  You can use @import here to include CSS inside folders
 */
 @import "imports/reset.css";
+@import "imports/_variables.scss";
 @import "imports/_typography.scss";
 @import "imports/_elements.scss";
 @import "imports/flexboxgrid.min.css";
