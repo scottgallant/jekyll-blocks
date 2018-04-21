@@ -12,7 +12,7 @@ fields:
   name: background_image
   label: Background Image
 - type: text
-  name: background-color
+  name: background_color
   label: Background Color
 - type: include
   name: settings
