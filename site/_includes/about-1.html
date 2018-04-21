@@ -14,7 +14,7 @@
           <h2 style="{% if block.settings.text_color %}color: {{ block.settings.text_color }}{% endif %}">{{ block.heading }}</h2>
           {% endif %}
           {% if block.text %}
-          <p style="{% if block.settings.text_color %}color: {{ block.settings.text_color }}{% endif %}">{{ block.text }}</p>
+          <p style="{% if block.settings.text_color %}color: {{ block.settings.text_color }}{% endif %}">{{ block.text | markdownify }}</p>
           {% endif %}
         </div>
       </div>
