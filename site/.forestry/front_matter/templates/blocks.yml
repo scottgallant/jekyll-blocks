@@ -15,5 +15,5 @@ fields:
 - type: blocks
   template_types:
   - features-1
-  label: label
+  label: Blocks
   name: label
