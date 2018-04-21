@@ -14,6 +14,7 @@ fields:
   default: blocks
 - type: blocks
   template_types:
+  - about-1
   - cover-1
   - features-1
   label: Blocks
