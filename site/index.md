@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: Homepage
-label:
+blocks:
 - template: features-1
   feature:
   - heading: Curabitur blandit tempus

@@ -2,8 +2,8 @@
 layout: default
 ---
 {% for block in page.blocks %}
-    {% assign type = block.type %}
-    {% case type %}
+    {% assign template = block.template %}
+    {% case template %}
     {% when 'quote' %}
 
     {% when 'features-1' %}
