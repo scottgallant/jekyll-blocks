@@ -44,9 +44,9 @@ blocks:
     bottom_margin: 120px
     text_color: black
   image: "/uploads/2018/04/21/hottub.jpg"
-  text: Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam id
-    dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis
-    dis parturient montes, nascetur ridiculus mus. Maecenas sed diam eget risus varius
-    blandit sit amet non magna.
-  heading: Hot tub in the woods
+  text: |-
+    Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Etiam porta sem malesuada magna mollis euismod. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
+
+    Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
+  heading: Hottub in the woods
 ---
