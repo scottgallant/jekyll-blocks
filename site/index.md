@@ -4,6 +4,13 @@ title: Homepage
 blocks:
 - template: features-1
   features:
+  - heading: '3rd heading '
+    icon: work
+    text: Mi porta gravida at eget metus. Curabitur blandit tempus porttitor. Sed
+      posuere consectetur est at lobortis. Sed posuere consectetur est at lobortis.
+      Nulla vitae elit libero, a pharetra augue.
+    link_text: Check it out
+    link_url: "#"
   - heading: Lorem ipsum dolor sit amet
     icon: watch later
     text: Lareet rutrum faucibus dolor. Mi porta gravida at eget metus. Curabitur
