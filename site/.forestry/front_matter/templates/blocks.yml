@@ -10,3 +10,8 @@ fields:
   label: layout
   hidden: true
   default: blocks
+- type: blocks
+  template_types:
+  - features-1
+  label: label
+  name: label
