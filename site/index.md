@@ -49,4 +49,15 @@ blocks:
 
     Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
   heading: Hot tub in the woods
+- template: about-2
+  settings:
+    top_margin: 120px
+    bottom_margin: 120px
+    text_color: black
+  image: "/uploads/2018/04/21/forest-small.jpg"
+  heading: Another block - About 2
+  text: |-
+    Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Praesent commodo cursus magna, [vel scelerisque nisl consectetur et](#). Vestibulum id ligula porta felis euismod semper. Aenean lacinia bibendum nulla sed consectetur.
+
+    Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Sed posuere consectetur est at lobortis. Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur.
 ---
