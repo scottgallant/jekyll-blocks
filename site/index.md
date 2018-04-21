@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: Homepage
-blocks:
+label:
 - template: features-1
   feature:
   - heading: Curabitur blandit tempus
@@ -11,4 +11,12 @@ blocks:
       Nulla vitae elit libero, a pharetra augue.
     link_text: See the demo
     link_url: "#"
+blocks:
+- template: features-1
+  feature:
+  - heading: asdf
+    icon: done
+    text: asdf
+    link_text: asdf
+    link_url: asdf
 ---
