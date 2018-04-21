@@ -11,6 +11,10 @@ fields:
 - type: textarea
   name: text
   label: Text
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
 - type: include
   template: block-settings
   label: settings
