@@ -1,0 +1,16 @@
+---
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  name: heading
+  label: Heading
+- type: textarea
+  name: text
+  label: Text
+- type: file
+  name: background_image
+  label: Background Image
+- type: text
+  name: background-color
+  label: Background Color
