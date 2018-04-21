@@ -14,3 +14,7 @@ fields:
 - type: text
   name: background-color
   label: Background Color
+- type: include
+  name: settings
+  label: settings
+  template: block-settings
