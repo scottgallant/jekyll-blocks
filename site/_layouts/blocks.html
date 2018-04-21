@@ -1,0 +1,15 @@
+---
+layout: default
+---
+{% for block in page.blocks %}
+    {% assign type = block.type %}
+    {% case type %}
+    {% when 'quote' %}
+
+    {% when 'features-1' %}
+      {% include features-1.html %}
+    {% when 'hero' %}
+
+    {% else %}
+    {% endcase %}
+{% endfor %}

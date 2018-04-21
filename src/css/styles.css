@@ -1,0 +1,55 @@
+/*
+ The default CSS file.
+
+ You can use @import here to include CSS inside folders
+*/
+@import "imports/reset.css";
+@import "imports/_typography.scss";
+@import "imports/_elements.scss";
+@import "imports/flexboxgrid.min.css";
+@import "blocks/_featurebox-1.scss";
+
+
+
+body {
+  font-family: sans-serif;
+  font-size: 1em;
+}
+
+
+
+.block {
+	margin: 8rem 0;
+
+	&.remove-bottom-margin {
+		margin-bottom: 0;
+	}
+
+	&.remove-top-margin {
+		margin-top: 0;
+	}
+
+	&:first-child {
+		margin-top: 0;
+	}
+}
+
+
+.container {
+	max-width: 1100px;
+	margin: 0 auto;
+
+	@media #{$screen-xl}  {
+		max-width: 1024px;
+		margin: 0 auto;
+	}
+	@media #{$screen-lg}  {
+		margin: 0 2em;
+	}
+	@media #{$screen-md}  {
+		margin: 0 2em;
+	}
+	@media #{$screen-sm}  {
+		margin: 0 2em;
+	}
+}

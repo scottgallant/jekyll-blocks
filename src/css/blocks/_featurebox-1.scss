@@ -1,0 +1,58 @@
+#fourteen {
+
+  // overide flexbox grid col padding
+  .col-xs, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+      padding-right: 0;
+      padding-left: 0;
+  }
+
+  .material-icons.md-18 { font-size: 18px; }
+  .material-icons.md-24 { font-size: 24px; }
+  .material-icons.md-36 { font-size: 36px; }
+  .material-icons.md-48 { font-size: 48px; }
+
+  .material-icons {
+    color: #BBF3BE;
+  }
+
+  h2 {
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #24B577;
+  }
+
+  p {
+    margin-bottom: 2rem;
+    color: #525f7f;
+  }
+
+  a {
+    text-decoration: none;
+    color: #6772e5;
+    font-weight: 700;
+    display: block;
+
+    .material-icons {
+      color: #6772e5;
+      vertical-align: middle;
+    }
+  }
+
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+
+  .box {
+    overflow: auto;
+    padding: 4rem 2rem;
+    height: 100%;
+    border-right: 1px solid #eee;
+  }
+
+  .row > div:first-child .box {
+    padding-left: 0;
+  }
+  .row > div:last-child .box {
+    padding-right: 0;
+    border-right: 0;
+  }
+}
