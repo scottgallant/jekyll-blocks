@@ -1,4 +1,34 @@
 ---
 hide_body: false
 is_partial: true
-fields: []
+fields:
+- type: field_group
+  name: settings
+  label: Settings
+  fields:
+  - type: select
+    name: top_margin
+    config:
+      source:
+        type: simple
+      options:
+      - 120px
+      - none
+    label: Top Margin
+    description: The empty space above this block
+    default: 120px
+  - type: select
+    name: bottom_margin
+    config:
+      source:
+        type: simple
+      options:
+      - 120px
+      - none
+    label: Bottom Margin
+    description: The empty space below this block
+    default: 120px
+  - type: text
+    name: text_color
+    label: Text Color
+    default: black
