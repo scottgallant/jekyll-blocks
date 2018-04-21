@@ -3,7 +3,7 @@ layout: blocks
 title: Homepage
 blocks:
 - template: features-1
-  feature:
+  features:
   - heading: Lorem ipsum dolor sit amet
     icon: watch later
     text: Lareet rutrum faucibus dolor. Mi porta gravida at eget metus. Curabitur
