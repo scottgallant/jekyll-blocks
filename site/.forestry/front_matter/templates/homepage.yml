@@ -1,0 +1,87 @@
+---
+hide_body: false
+is_partial: false
+fields:
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: ''
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: blocks
+  label: Blocks
+  type: field_group_list
+  fields:
+  - name: type
+    label: Type
+    type: text
+    hidden: false
+    default: ''
+  - name: feature1
+    label: Feature1
+    type: field_group
+    fields:
+    - name: heading
+      label: Heading
+      type: text
+      hidden: false
+      default: ''
+    - name: icon
+      label: Icon
+      type: text
+      hidden: false
+      default: ''
+    - name: text
+      label: Text
+      type: textarea
+      hidden: false
+      default: ''
+    - name: link_text
+      label: Link text
+      type: text
+      hidden: false
+      default: ''
+    - name: link_url
+      label: Link url
+      type: text
+      hidden: false
+      default: ''
+    hidden: false
+    default: ''
+  - name: feature2
+    label: Feature2
+    type: field_group
+    fields:
+    - name: heading
+      label: Heading
+      type: text
+      hidden: false
+      default: ''
+    - name: icon
+      label: Icon
+      type: text
+      hidden: false
+      default: ''
+    - name: text
+      label: Text
+      type: textarea
+      hidden: false
+      default: ''
+    - name: link_text
+      label: Link text
+      type: text
+      hidden: false
+      default: ''
+    - name: link_url
+      label: Link url
+      type: text
+      hidden: false
+      default: ''
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
