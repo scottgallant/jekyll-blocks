@@ -28,7 +28,8 @@ fields:
     label: Bottom Margin
     description: The empty space below this block
     default: 120px
-  - type: text
+  - type: color
     name: text_color
+    config:
+      color_format: Hex
     label: Text Color
-    default: black
