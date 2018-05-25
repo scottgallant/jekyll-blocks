@@ -11,8 +11,10 @@ fields:
 - type: file
   name: background_image
   label: Background Image
-- type: text
+- type: color
   name: background_color
+  config:
+    color_format: Hex
   label: Background Color
 - type: include
   name: settings
