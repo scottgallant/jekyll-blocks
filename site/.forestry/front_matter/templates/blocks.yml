@@ -1,6 +1,4 @@
 ---
-pages:
-- index.md
 hide_body: true
 is_partial: false
 fields:
@@ -20,3 +18,5 @@ fields:
   - features-1
   label: Blocks
   name: blocks
+pages:
+- index.md
