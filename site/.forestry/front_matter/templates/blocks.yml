@@ -18,5 +18,12 @@ fields:
   - features-1
   label: Blocks
   name: blocks
+- type: field_group_list
+  label: test
+  name: test
+  fields:
+  - type: text
+    name: test_text
+    label: test text
 pages:
 - index.md
