@@ -12,6 +12,7 @@ fields:
   default: blocks
 - type: blocks
   template_types:
+  - divider
   - quote
   - about-1
   - about-2
