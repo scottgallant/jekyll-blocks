@@ -5,3 +5,7 @@ fields:
 - type: text
   name: text
   label: text
+- type: include
+  name: settings
+  label: Settings
+  template: block-settings
