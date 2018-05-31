@@ -49,6 +49,11 @@ blocks:
 
     Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
   heading: Hot tub in the woods
+- template: divider
+  settings:
+    top_margin: 120px
+    bottom_margin: 120px
+    text_color: black
 - template: about-2
   settings:
     top_margin: 120px
@@ -69,4 +74,10 @@ blocks:
   background_color: "#ddd"
   text: Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed
     consectetur.
+- template: quote
+  settings:
+    top_margin: 120px
+    bottom_margin: none
+    text_color: white
+  text: Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed
 ---

@@ -10,8 +10,12 @@ layout: default
       {% include about-2.html %}
     {% when 'features-1' %}
       {% include features-1.html %}
+    {% when 'divider' %}
+      {% include divider.html %}
     {% when 'cover-1' %}
       {% include cover-1.html %}
+    {% when 'quote' %}
+      {% include quote.html %}
     {% else %}
     {% endcase %}
 {% endfor %}
