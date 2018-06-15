@@ -20,4 +20,4 @@ fields:
   label: Blocks
   name: blocks
 pages:
-- index.md
+- site/index.md
