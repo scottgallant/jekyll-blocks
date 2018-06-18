@@ -20,4 +20,5 @@ fields:
   label: Blocks
   name: blocks
 pages:
+- site/test.md
 - site/index.md
