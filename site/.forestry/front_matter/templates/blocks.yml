@@ -5,10 +5,6 @@ fields:
 - type: text
   name: title
   label: Title
-- name: public__
-  type: boolean
-  label: 'Public? '
-  description: 'Can this be viewed by 3rd party agencies? '
 - type: text
   name: layout
   label: layout
